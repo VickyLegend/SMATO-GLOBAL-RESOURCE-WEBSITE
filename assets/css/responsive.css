@@ -1,0 +1,86 @@
+/* ============================================================
+   FILE: assets/css/responsive.css
+   SMATO GLOBAL RESOURCE — Media Queries
+   ============================================================ */
+
+/* Mobile-First Breakpoints */
+/* sm: 640px, md: 768px, lg: 1024px, xl: 1280px */
+
+@media (max-width: 1279px) {
+  :root {
+    --container-padding: 3rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --container-padding: 2rem;
+    --space-section: 6rem;
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --container-padding: 1.5rem;
+    --space-section: 4rem;
+  }
+
+  .section__title {
+    font-size: var(--text-2xl);
+  }
+
+  .grid--3, .grid--4 {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-bar {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+  }
+
+  .hero__title {
+    font-size: var(--text-3xl);
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    gap: var(--space-sm);
+    text-align: center;
+  }
+
+  .header__btns {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-bar {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Accessibility & Interaction fixes */
+button, a {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services — SMATO GLOBAL RESOURCE</title>
+  <meta name="description" content="Detailed breakdown of services provided by SMATO Global Resource across multiple industries.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <style>
+    /* Accordion Styles */
+    .faq {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .faq__item {
+      border-bottom: 1px solid #E2E8F0;
+      padding-block: var(--space-md);
+    }
+    .faq__question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--color-primary);
+    }
+    .faq__answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      color: var(--color-text-muted);
+      font-size: var(--text-sm);
+      margin-top: 10px;
+    }
+    .faq__check:checked + .faq__question + .faq__answer {
+      max-height: 200px;
+    }
+    .faq__check {
+      display: none;
+    }
+    .faq__icon {
+      transition: transform 0.3s ease;
+    }
+    .faq__check:checked + .faq__question .faq__icon {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar--scrolled">
+    <div class="container">
+      <a href="index.html" class="nav__logo">
+        <div class="nav__logo-icon">S</div>
+        <div class="nav__logo-text">
+          <span class="nav__logo-main">SMATO</span>
+          <span class="nav__logo-sub">GLOBAL RESOURCE</span>
+        </div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="divisions.html" class="nav__link">Divisions</a></li>
+        <li><a href="services.html" class="nav__link nav__link--active">Services</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+        <li><a href="contact.html" class="btn btn--primary btn--pill">Partner With Us</a></li>
+      </ul>
+      <div class="hamburger">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Overlay -->
+  <div class="nav-overlay">
+    <a href="index.html" class="nav-overlay__link">Home</a>
+    <a href="about.html" class="nav-overlay__link">About</a>
+    <a href="divisions.html" class="nav-overlay__link">Divisions</a>
+    <a href="services.html" class="nav-overlay__link">Services</a>
+    <a href="contact.html" class="nav-overlay__link">Contact</a>
+  </div>
+
+  <main>
+    <section class="section hero-bg" style="padding-top: 220px; padding-bottom: 100px; text-align: center; background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000');">
+      <div class="container reveal reveal--up">
+        <div class="pill-badge reveal reveal--fade">
+          <span>Expertise · Strategy · Results</span>
+        </div>
+        <h1 class="hero__title">Our Services</h1>
+        <p class="section__text text--center" style="margin-inline: auto;">Beyond divisions, we provide unified services that tie every resource together into a cohesive strategy for your success.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid--3">
+          <!-- Trade Service -->
+          <div class="card reveal reveal--up">
+            <h3 class="card__title" style="color: var(--color-primary); margin-bottom: var(--space-md);">Trade & Procurement</h3>
+            <p class="card__text" style="color: var(--color-text-dark); margin-bottom: var(--space-md);">Strategic sourcing of industrial raw materials, luxury goods, and essential commodities across global markets.</p>
+            <ul style="font-size: var(--text-sm); line-height: 2;">
+              <li>• Vendor Verification</li>
+              <li>• Contract Negotiation</li>
+              <li>• Quality Control & Inspections</li>
+            </ul>
+          </div>
+          <!-- Tech Service -->
+          <div class="card reveal reveal--up delay-1">
+            <h3 class="card__title" style="color: var(--color-primary); margin-bottom: var(--space-md);">Enterprise Technology</h3>
+            <p class="card__text" style="color: var(--color-text-dark); margin-bottom: var(--space-md);">Implementation of modern ERP systems, secure cloud architecture, and data analytics tools.</p>
+            <ul style="font-size: var(--text-sm); line-height: 2;">
+              <li>• Digital Transformation Roadmap</li>
+              <li>• Legacy System Integration</li>
+              <li>• 24/7 Managed IT Support</li>
+            </ul>
+          </div>
+          <!-- Marketing Service -->
+          <div class="card reveal reveal--up delay-2">
+            <h3 class="card__title" style="color: var(--color-primary); margin-bottom: var(--space-md);">Global Marketing</h3>
+            <p class="card__text" style="color: var(--color-text-dark); margin-bottom: var(--space-md);">Branding and marketing strategies tailored for both African and international audiences.</p>
+            <ul style="font-size: var(--text-sm); line-height: 2;">
+              <li>• Cross-Border Brand Strategy</li>
+              <li>• Performance Digital Ads</li>
+              <li>• High-Value Content Creation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Philosophy -->
+    <section class="section section--ivory">
+      <div class="container text--center reveal reveal--fade">
+        <h2 class="section__title" style="margin-inline: auto;">Our Pricing Philosophy</h2>
+        <p class="section__text text--center" style="margin-inline: auto;">We don't believe in one-size-fits-all pricing. Every engagement with SMATO is tailored to the specific scale, urgency, and complexity of the project. We prioritize value-delivery and long-term partnership over static transaction fees.</p>
+        <div style="margin-top: var(--space-xl);">
+          <a href="contact.html" class="btn btn--dark">Request a Tailored Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+      <div class="container">
+        <div class="text--center" style="margin-bottom: var(--space-3xl);">
+          <span class="section__label">FAQ</span>
+          <h2 class="section__title" style="margin-inline: auto;">Common Questions</h2>
+        </div>
+
+        <div class="faq reveal reveal--up">
+          <div class="faq__item">
+            <input type="checkbox" id="faq1" class="faq__check">
+            <label for="faq1" class="faq__question">
+              How does SMATO handle international logistics?
+              <span class="faq__icon">▼</span>
+            </label>
+            <p class="faq__answer">We leverage our strategic presence in Lagos, London, and Dubai to manage sea and air freight through our network of verified carriers, handling all documentation and customs clearance in-house.</p>
+          </div>
+          <div class="faq__item">
+            <input type="checkbox" id="faq2" class="faq__check">
+            <label for="faq2" class="faq__question">
+              Can I hire multiple divisions for one project?
+              <span class="faq__icon">▼</span>
+            </label>
+            <p class="faq__answer">Yes, our ecosystem is designed for multi-division collaboration. We often provide a "Turnkey" solution where our Tech Hub, Logistics, and Marketing divisions work together for a single client launching a new product.</p>
+          </div>
+          <div class="faq__item">
+            <input type="checkbox" id="faq3" class="faq__check">
+            <label for="faq3" class="faq__question">
+              Which regions does SMATO cover?
+              <span class="faq__icon">▼</span>
+            </label>
+            <p class="faq__answer">While our primary hubs are in Nigeria, the UK, and the UAE, we facilitate trades and operations across 30+ countries including major European, Asian, and North American markets.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom">
+        <p>© 2025 SMATO Global Resource. All Rights Reserved.</p>
+        <div style="display: flex; gap: 24px;">
+          <a href="#" class="hover:text--gold">LinkedIn</a>
+          <a href="#" class="hover:text--gold">Twitter/X</a>
+          <a href="#" class="hover:text--gold">Terms</a>
+          <a href="#" class="hover:text--gold">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
