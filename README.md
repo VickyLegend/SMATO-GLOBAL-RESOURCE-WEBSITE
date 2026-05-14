@@ -1,56 +1,110 @@
-# SMATO GLOBAL RESOURCE — One Company. Infinite Capabilities.
+# SMATO Global Resource
+### One Company. Infinite Capabilities.
 
-A professional, high-converting website for a diversified global conglomerate. Built with semantic HTML5, hand-crafted CSS3, and vanilla JavaScript.
+> A professional, high-converting corporate website for a diversified global conglomerate operating across trade, logistics, technology, marketing, and more.
+
+**Live Site:** [smatoglobalresource.netlify.app](https://smatoglobalresource.netlify.app/)
+
+---
+
+## Overview
+
+The SMATO Global Resource website is a fully responsive, multi-page corporate web presence built to communicate the brand's scale, credibility, and service offering to a global audience. It features smooth animations, a structured service architecture, and an integrated contact system.
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Markup | Semantic HTML5 |
+| Styling | Hand-crafted CSS3 with Custom Properties |
+| Behaviour | Vanilla JavaScript (ES6+) |
+| Fonts | Google Fonts — Cormorant Garamond, Outfit, JetBrains Mono |
+| Icons | Lucide Icons (SVG) |
+| Hosting | Netlify |
+
+---
 
 ## Project Structure
+
 ```
 smato-global-resource/
 │
-├── index.html        # Homepage
-├── about.html        # Company Story & Leadership
-├── divisions.html    # Detailed Business Sectors
-├── services.html     # Service Breakdown & FAQ
-├── contact.html      # Inquiry & Locations
+├── index.html          # Homepage
+├── about.html          # Company Story & Leadership
+├── divisions.html      # Business Divisions
+├── services.html       # Services, Pricing Philosophy & FAQ
+├── contact.html        # Enquiry Form & Global Office Locations
 │
 ├── assets/
 │   ├── css/
 │   │   ├── main.css          # Design Tokens & Global Styles
-│   │   ├── components.css    # UI Kit (Navbar, Buttons, Cards)
-│   │   ├── animations.css    # Keyframes & Scroll Reveals
-│   │   └── responsive.css    # Adaptive Breakpoints
+│   │   ├── components.css    # UI Components (Navbar, Buttons, Cards)
+│   │   ├── animations.css    # Keyframes & Scroll Reveal Effects
+│   │   └── responsive.css    # Breakpoints & Adaptive Layouts
 │   │
-│   ├── js/
-│   │   ├── main.js           # Module Initializer
-│   │   ├── navbar.js         # Navigation Behavior
-│   │   ├── animations.js     # Intersection Observer & Counters
-│   │   └── contact.js        # Form Validation & Handling
+│   └── js/
+│       ├── main.js           # Module Initializer
+│       ├── navbar.js         # Navigation Behaviour
+│       ├── animations.js     # Intersection Observer & Counter Animations
+│       └── contact.js        # Form Validation & Submission Handling
 │
 └── README.md
 ```
 
-## How to Run Locally
-1. Clone or download the project files.
-2. Open the project folder in **VS Code**.
-3. Use the **Live Server** extension to launch `index.html`.
-4. Alternatively, use any local HTTP server: `npx serve .`
+---
 
-## Customization
-### Colors & Typography
-All design tokens are managed via CSS Custom Properties in `assets/css/main.css` under the `:root` selector.
-- Update `--color-gold` to change the primary accent.
-- Update `--font-display` to swap titles (default: Cormorant Garamond).
+## Running Locally
 
-### Adding/Editing Divisions
-To add a new business sector:
+**Prerequisites:** Any modern browser and a local HTTP server.
+
+```bash
+# Option 1 — VS Code Live Server
+# Open the project in VS Code and launch index.html with the Live Server extension.
+
+# Option 2 — Node.js serve
+npx serve .
+```
+
+Then open `http://localhost:3000` (or the port shown in your terminal).
+
+---
+
+## Customisation
+
+### Design Tokens
+All colours, typography, and spacing variables are defined in `assets/css/main.css` under the `:root` selector.
+
+```css
+:root {
+  --color-gold: #c9a84c;       /* Primary accent */
+  --font-display: 'Cormorant Garamond', serif;  /* Heading font */
+}
+```
+
+### Adding a New Division
 1. Open `divisions.html`.
-2. Duplicate a division `grid` block.
-3. Update the description and SVG icon.
+2. Duplicate an existing division block.
+3. Update the heading, description, bullet points, and icon.
+
+---
 
 ## Deployment
-- **Netlify/Vercel**: Simply drag and drop the root folder into the dashboard.
-- **GitHub Pages**: Push the files to a repository and enable GitHub Pages in settings.
 
-## Credits
-- **Typography**: Google Fonts (Cormorant Garamond, Outfit, JetBrains Mono).
-- **Icons**: Lucide Icons (SVG references).
-- **Development**: AI Studio Build.
+Hosted on **Netlify**. The repository is connected for continuous deployment — pushing to the main branch triggers an automatic build and release.
+
+---
+
+## Development
+
+**Developed by [Prime Motion Studio]()**
+All design, markup, styling, and scripting was produced by Prime Motion Studio on behalf of SMATO Global Resource.
+
+---
+
+## License
+
+© 2026 SMATO Global Resource. All Rights Reserved.
+
+This codebase is proprietary. No part of this project may be reproduced, distributed, or transmitted in any form without the express written permission of the client.
