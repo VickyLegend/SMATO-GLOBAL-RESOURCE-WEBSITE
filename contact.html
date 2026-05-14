@@ -1,182 +1,301 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us — SMATO GLOBAL RESOURCE</title>
-  <meta name="description" content="Get in touch with SMATO Global Resource. Partner with a global powerhouse for trade, tech, and beyond.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/components.css">
-  <link rel="stylesheet" href="assets/css/animations.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
-</head>
-<body>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar--scrolled">
-    <div class="container">
-      <a href="index.html" class="nav__logo">
-        <div class="nav__logo-icon">S</div>
-        <div class="nav__logo-text">
-          <span class="nav__logo-main">SMATO</span>
-          <span class="nav__logo-sub">GLOBAL RESOURCE</span>
-        </div>
-      </a>
-      <ul class="nav__links">
-        <li><a href="index.html" class="nav__link">Home</a></li>
-        <li><a href="about.html" class="nav__link">About</a></li>
-        <li><a href="divisions.html" class="nav__link">Divisions</a></li>
-        <li><a href="services.html" class="nav__link">Services</a></li>
-        <li><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
-        <li><a href="contact.html" class="btn btn--primary btn--pill">Partner With Us</a></li>
-      </ul>
-      <div class="hamburger">
-        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Mobile Overlay -->
-  <div class="nav-overlay">
-    <a href="index.html" class="nav-overlay__link">Home</a>
-    <a href="about.html" class="nav-overlay__link">About</a>
-    <a href="divisions.html" class="nav-overlay__link">Divisions</a>
-    <a href="services.html" class="nav-overlay__link">Services</a>
-    <a href="contact.html" class="nav-overlay__link">Contact</a>
-  </div>
-
-  <main>
-    <section class="section hero-bg" style="padding-top: 220px; padding-bottom: 100px; text-align: center; background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&q=80&w=2000');">
-      <div class="container reveal reveal--up">
-        <div class="pill-badge reveal reveal--fade">
-          <span>Connect · Partner · Scale</span>
-        </div>
-        <h1 class="hero__title">Contact Us</h1>
-        <p class="section__text text--center" style="margin-inline: auto;">Our specialized teams are ready to discuss your next project, trade, or expansion.</p>
-      </div>
-    </section>
-
-    <section class="section">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us — SMATO GLOBAL RESOURCE</title>
+    <meta
+      name="description"
+      content="Get in touch with SMATO Global Resource. Partner with a global powerhouse for trade, tech, and beyond."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar--scrolled">
       <div class="container">
-        <div class="grid grid--2">
-          <!-- Left: Form -->
-          <div class="reveal reveal--left">
-            <h2 class="section__title">Send Us A Message</h2>
-            <form class="form">
-              <div class="grid grid--2">
-                <div class="form__group">
-                  <label class="form__label">Full Name</label>
-                  <input type="text" class="form__input" placeholder="John Doe" required>
-                </div>
-                <div class="form__group">
-                  <label class="form__label">Company Name</label>
-                  <input type="text" class="form__input" placeholder="Acme Corp">
-                </div>
-              </div>
-              <div class="grid grid--2">
-                <div class="form__group">
-                  <label class="form__label">Email Address</label>
-                  <input type="email" class="form__input" placeholder="john@example.com" required>
-                </div>
-                <div class="form__group">
-                  <label class="form__label">Phone Number</label>
-                  <input type="tel" class="form__input" placeholder="+234 800 000 0000" required>
-                </div>
-              </div>
-              <div class="form__group">
-                <label class="form__label">Division of Interest</label>
-                <select class="form__select" required>
-                  <option value="">Select a Division</option>
-                  <option value="trading">Commodity Trading</option>
-                  <option value="logistics">Logistics & Freight</option>
-                  <option value="tech">Technology Hub</option>
-                  <option value="marketing">Digital Marketing</option>
-                  <option value="consulting">Business Consulting</option>
-                  <option value="agriculture">Agriculture</option>
-                  <option value="energy">Energy & Utilities</option>
-                  <option value="realestate">Real Estate</option>
-                  <option value="finance">Financial Services</option>
-                  <option value="procurement">Procurement</option>
-                  <option value="hr">Human Capital</option>
-                  <option value="export">Export/Import Facilitation</option>
-                </select>
-              </div>
-              <div class="form__group">
-                <label class="form__label">Message</label>
-                <textarea class="form__textarea" rows="5" placeholder="Tell us about your requirements..." required></textarea>
-              </div>
-              <button type="submit" class="btn btn--primary">Send Message</button>
-            </form>
+        <a href="index.html" class="nav__logo">
+          <div class="nav__logo-icon">S</div>
+          <div class="nav__logo-text">
+            <span class="nav__logo-main">SMATO</span>
+            <span class="nav__logo-sub">GLOBAL RESOURCE</span>
           </div>
+        </a>
+        <ul class="nav__links">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="divisions.html" class="nav__link">Divisions</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li>
+            <a href="contact.html" class="nav__link nav__link--active"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="btn btn--primary btn--pill"
+              >Partner With Us</a
+            >
+          </li>
+        </ul>
+        <div class="hamburger">
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </div>
+      </div>
+    </nav>
 
-          <!-- Right: Offices -->
-          <div class="reveal reveal--right" style="padding-left: var(--space-xl);">
-            <h2 class="section__title">Global Presence</h2>
-            
-            <div style="display: flex; flex-direction: column; gap: var(--space-xl);">
-              <!-- Lagos -->
-              <div class="contact-card">
-                <h4 style="color: var(--color-gold); font-family: var(--font-display); font-size: var(--text-lg); margin-bottom: 5px;">Lagos HQ</h4>
-                <p style="font-size: var(--text-sm); line-height: 1.8;">Victoria Island, Lagos, Nigeria<br>Email: lagos@smato-global.com<br>Phone: +234 (0) 1 234 5678</p>
-              </div>
-              <!-- London -->
-              <div class="contact-card">
-                <h4 style="color: var(--color-gold); font-family: var(--font-display); font-size: var(--text-lg); margin-bottom: 5px;">London Office</h4>
-                <p style="font-size: var(--text-sm); line-height: 1.8;">Canary Wharf, London, UK<br>Email: london@smato-global.com<br>Phone: +44 20 1234 5678</p>
-              </div>
-              <!-- Dubai -->
-              <div class="contact-card">
-                <h4 style="color: var(--color-gold); font-family: var(--font-display); font-size: var(--text-lg); margin-bottom: 5px;">Dubai Office</h4>
-                <p style="font-size: var(--text-sm); line-height: 1.8;">Business Bay, Dubai, UAE<br>Email: dubai@smato-global.com<br>Phone: +971 4 123 4567</p>
-              </div>
+    <!-- Mobile Overlay -->
+    <div class="nav-overlay">
+      <a href="index.html" class="nav-overlay__link">Home</a>
+      <a href="about.html" class="nav-overlay__link">About</a>
+      <a href="divisions.html" class="nav-overlay__link">Divisions</a>
+      <a href="services.html" class="nav-overlay__link">Services</a>
+      <a href="contact.html" class="nav-overlay__link">Contact</a>
+    </div>
 
-              <a href="https://wa.me/2348000000000" class="btn btn--dark" style="background-color: #25D366; border: none;">
-                Chat on WhatsApp
-              </a>
+    <main>
+      <section
+        class="section hero-bg"
+        style="
+          padding-top: 220px;
+          padding-bottom: 100px;
+          text-align: center;
+          background-image: url(&quot;https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&q=80&w=2000&quot;);
+        "
+      >
+        <div class="container reveal reveal--up">
+          <div class="pill-badge reveal reveal--fade">
+            <span>Connect · Partner · Scale</span>
+          </div>
+          <h1 class="hero__title">Contact Us</h1>
+          <p class="section__text text--center" style="margin-inline: auto">
+            Our specialized teams are ready to discuss your next project, trade,
+            or expansion.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid grid--2">
+            <!-- Left: Form -->
+            <div class="reveal reveal--left">
+              <h2 class="section__title">Send Us A Message</h2>
+              <form class="form">
+                <div class="grid grid--2">
+                  <div class="form__group">
+                    <label class="form__label">Full Name</label>
+                    <input
+                      type="text"
+                      class="form__input"
+                      placeholder="John Doe"
+                      required
+                    />
+                  </div>
+                  <div class="form__group">
+                    <label class="form__label">Company Name</label>
+                    <input
+                      type="text"
+                      class="form__input"
+                      placeholder="Acme Corp"
+                    />
+                  </div>
+                </div>
+                <div class="grid grid--2">
+                  <div class="form__group">
+                    <label class="form__label">Email Address</label>
+                    <input
+                      type="email"
+                      class="form__input"
+                      placeholder="john@example.com"
+                      required
+                    />
+                  </div>
+                  <div class="form__group">
+                    <label class="form__label">Phone Number</label>
+                    <input
+                      type="tel"
+                      class="form__input"
+                      placeholder="+234 800 000 0000"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form__group">
+                  <label class="form__label">Division of Interest</label>
+                  <select class="form__select" required>
+                    <option value="">Select a Division</option>
+                    <option value="trading">Commodity Trading</option>
+                    <option value="logistics">Logistics & Freight</option>
+                    <option value="tech">Technology Hub</option>
+                    <option value="marketing">Digital Marketing</option>
+                    <option value="consulting">Business Consulting</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="energy">Energy & Utilities</option>
+                    <option value="realestate">Real Estate</option>
+                    <option value="finance">Financial Services</option>
+                    <option value="procurement">Procurement</option>
+                    <option value="hr">Human Capital</option>
+                    <option value="export">Export/Import Facilitation</option>
+                  </select>
+                </div>
+                <div class="form__group">
+                  <label class="form__label">Message</label>
+                  <textarea
+                    class="form__textarea"
+                    rows="5"
+                    placeholder="Tell us about your requirements..."
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary">
+                  Send Message
+                </button>
+              </form>
+            </div>
+
+            <!-- Right: Offices -->
+            <div
+              class="reveal reveal--right"
+              style="padding-left: var(--space-xl)"
+            >
+              <h2 class="section__title">Global Presence</h2>
+
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  gap: var(--space-xl);
+                "
+              >
+                <!-- Lagos -->
+                <div class="contact-card">
+                  <h4
+                    style="
+                      color: var(--color-gold);
+                      font-family: var(--font-display);
+                      font-size: var(--text-lg);
+                      margin-bottom: 5px;
+                    "
+                  >
+                    Lagos HQ
+                  </h4>
+                  <p style="font-size: var(--text-sm); line-height: 1.8">
+                    Victoria Island, Lagos, Nigeria<br />Email:
+                    lagos@smato-global.com<br />Phone: +234 803 576 0275
+                  </p>
+                </div>
+                <!-- London -->
+                <div class="contact-card">
+                  <h4
+                    style="
+                      color: var(--color-gold);
+                      font-family: var(--font-display);
+                      font-size: var(--text-lg);
+                      margin-bottom: 5px;
+                    "
+                  >
+                    London Office
+                  </h4>
+                  <p style="font-size: var(--text-sm); line-height: 1.8">
+                    Canary Wharf, London, UK<br />Email:
+                    london@smato-global.com<br />Phone: +44 20 1234 5678
+                  </p>
+                </div>
+                <!-- Dubai -->
+                <div class="contact-card">
+                  <h4
+                    style="
+                      color: var(--color-gold);
+                      font-family: var(--font-display);
+                      font-size: var(--text-lg);
+                      margin-bottom: 5px;
+                    "
+                  >
+                    Dubai Office
+                  </h4>
+                  <p style="font-size: var(--text-sm); line-height: 1.8">
+                    Business Bay, Dubai, UAE<br />Email:
+                    dubai@smato-global.com<br />Phone: +971 4 123 4567
+                  </p>
+                </div>
+
+                <a
+                  href="https://wa.me/2348035760275"
+                  class="btn btn--dark"
+                  style="background-color: #25d366; border: none"
+                >
+                  Chat on WhatsApp
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Map Section -->
-    <section class="section" style="padding-bottom: 0;">
-      <div style="width: 100%; height: 500px; background: #eee; border-top: 1px solid var(--white-10);">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15859.167380963391!2d3.41162985!3d6.42586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ccf618f6c4d%3A0xc638064a93863a!2sVictoria%20Island%2C%20Lagos!5e0!3m2!1sen!2sng!4v1715238000000!5m2!1sen!2sng" 
-          width="100%" 
-          height="100%" 
-          style="border:0; filter: grayscale(1) invert(1) contrast(1.2);" 
-          allowfullscreen="" 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </div>
-    </section>
-  </main>
+      <!-- Map Section -->
+      <section class="section" style="padding-bottom: 0">
+        <div
+          style="
+            width: 100%;
+            height: 500px;
+            background: #eee;
+            border-top: 1px solid var(--white-10);
+          "
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15859.167380963391!2d3.41162985!3d6.42586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ccf618f6c4d%3A0xc638064a93863a!2sVictoria%20Island%2C%20Lagos!5e0!3m2!1sen!2sng!4v1715238000000!5m2!1sen!2sng"
+            width="100%"
+            height="100%"
+            style="border: 0; filter: grayscale(1) invert(1) contrast(1.2)"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__bottom">
-        <p>© 2025 SMATO Global Resource. All Rights Reserved.</p>
-        <div style="display: flex; gap: 24px;">
-          <a href="#" class="hover:text--gold">LinkedIn</a>
-          <a href="#" class="hover:text--gold">Twitter/X</a>
-          <a href="#" class="hover:text--gold">Terms</a>
-          <a href="#" class="hover:text--gold">Privacy</a>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__bottom">
+          <p>© 2026 SMATO Global Resource. All Rights Reserved.</p>
+          <div style="display: flex; gap: 24px">
+            <a href="#" class="hover:text--gold">LinkedIn</a>
+            <a href="#" class="hover:text--gold">Twitter/X</a>
+            <a href="#" class="hover:text--gold">Terms</a>
+            <a href="#" class="hover:text--gold">Privacy</a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script type="module" src="assets/js/main.js"></script>
-</body>
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
 </html>
