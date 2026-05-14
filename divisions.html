@@ -1,197 +1,470 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Divisions — SMATO GLOBAL RESOURCE</title>
-  <meta name="description" content="Explore the diverse business divisions of SMATO Global Resource. From Trade and Tech to Logistics and Real Estate.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/components.css">
-  <link rel="stylesheet" href="assets/css/animations.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
-</head>
-<body>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar--scrolled">
-    <div class="container">
-      <a href="index.html" class="nav__logo">
-        <div class="nav__logo-icon">S</div>
-        <div class="nav__logo-text">
-          <span class="nav__logo-main">SMATO</span>
-          <span class="nav__logo-sub">GLOBAL RESOURCE</span>
-        </div>
-      </a>
-      <ul class="nav__links">
-        <li><a href="index.html" class="nav__link">Home</a></li>
-        <li><a href="about.html" class="nav__link">About</a></li>
-        <li><a href="divisions.html" class="nav__link nav__link--active">Divisions</a></li>
-        <li><a href="services.html" class="nav__link">Services</a></li>
-        <li><a href="contact.html" class="nav__link">Contact</a></li>
-        <li><a href="contact.html" class="btn btn--primary btn--pill">Partner With Us</a></li>
-      </ul>
-      <div class="hamburger">
-        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Mobile Overlay -->
-  <div class="nav-overlay">
-    <a href="index.html" class="nav-overlay__link">Home</a>
-    <a href="about.html" class="nav-overlay__link">About</a>
-    <a href="divisions.html" class="nav-overlay__link">Divisions</a>
-    <a href="services.html" class="nav-overlay__link">Services</a>
-    <a href="contact.html" class="nav-overlay__link">Contact</a>
-  </div>
-
-  <main>
-    <!-- Page Header -->
-    <section class="section hero-bg" style="padding-top: 220px; padding-bottom: 100px; text-align: center; background-image: url('https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=2000');">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Divisions — SMATO GLOBAL RESOURCE</title>
+    <meta
+      name="description"
+      content="Explore the diverse business divisions of SMATO Global Resource. From Trade and Tech to Logistics and Real Estate."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar--scrolled">
       <div class="container">
-        <div class="pill-badge reveal reveal--fade">
-          <span>Diversified · Integrated · Global</span>
-        </div>
-        <h1 class="hero__title reveal reveal--up">Our Divisions</h1>
-        <p class="section__text text--center reveal reveal--up delay-1">
-          A multi-sector conglomerate engineered for the complex demands of modern commerce. 
-          Each division operates as a center of excellence, unified by the SMATO standard of precision.
-        </p>
-      </div>
-    </section>
-
-    <!-- Detailed Divisions Section -->
-    <section class="section" style="background-color: var(--color-primary);">
-      <div class="container">
-        
-        <!-- 1. Commodity Trading -->
-        <div class="grid grid--2 reveal reveal--up" style="margin-bottom: var(--space-4xl); align-items: center; gap: var(--space-3xl);">
-          <div class="reveal reveal--left">
-            <div class="card__icon-box">🌍</div>
-            <h2 class="section__title" style="margin-bottom: var(--space-md);">Commodity Trading</h2>
-            <p class="section__text" style="max-width: 100%; color: var(--white-90);">
-              Our trading division is the cornerstone of SMATO. We leverage deep market intelligence and a robust network of suppliers to source and trade energy, mineral, and agricultural commodities across continents.
-            </p>
-            <ul style="color: var(--color-gold); font-size: 14px; display: flex; flex-direction: column; gap: 8px; font-weight: 600;">
-              <li>✓ Global Network of Verified Suppliers</li>
-              <li>✓ Strategic Energy & Mineral Sourcing</li>
-              <li>✓ Ethical Agricultural Trade Practices</li>
-            </ul>
-            <a href="contact.html?division=trading" class="btn btn--primary" style="margin-top: var(--space-lg);">Enquire About Trading</a>
+        <a href="index.html" class="nav__logo">
+          <div class="nav__logo-icon">S</div>
+          <div class="nav__logo-text">
+            <span class="nav__logo-main">SMATO</span>
+            <span class="nav__logo-sub">GLOBAL RESOURCE</span>
           </div>
-          <div class="reveal reveal--right" style="aspect-ratio: 16/9; overflow: hidden; border: 1px solid var(--white-10); border-radius: var(--radius-sm); position: relative; group;">
-            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200" style="width: 100%; height: 100%; object-fit: cover;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" alt="Commodity Trading">
-          </div>
-        </div>
-
-        <!-- 2. Logistics & Freight -->
-        <div class="grid grid--2 reveal reveal--up" style="margin-bottom: var(--space-4xl); align-items: center; gap: var(--space-3xl);">
-          <div class="reveal reveal--left" style="order: 2;">
-            <div class="card__icon-box">🚢</div>
-            <h2 class="section__title" style="margin-bottom: var(--space-md);">Logistics & Freight</h2>
-            <p class="section__text" style="max-width: 100%; color: var(--white-90);">
-              Moving the world requires precision. Our logistics arm provides full-spectrum freight management, ensuring that cargo—whether by air, sea, or land—reaches its destination with zero friction.
-            </p>
-            <ul style="color: var(--color-gold); font-size: 14px; display: flex; flex-direction: column; gap: 8px; font-weight: 600;">
-              <li>✓ Intercontinental Freight Management</li>
-              <li>✓ Complex Customs Architecture Solutions</li>
-              <li>✓ End-to-End Real-Time Cargo Tracking</li>
-            </ul>
-            <a href="contact.html?division=logistics" class="btn btn--primary" style="margin-top: var(--space-lg);">Request Freight Quote</a>
-          </div>
-          <div class="reveal reveal--right" style="aspect-ratio: 16/9; overflow: hidden; border: 1px solid var(--white-10); border-radius: var(--radius-sm); order: 1;">
-            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200" style="width: 100%; height: 100%; object-fit: cover;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" alt="Logistics">
-          </div>
-        </div>
-
-        <!-- 3. Technology Hub -->
-        <div class="grid grid--2 reveal reveal--up" style="margin-bottom: var(--space-4xl); align-items: center; gap: var(--space-3xl);">
-          <div class="reveal reveal--left">
-            <div class="card__icon-box">💻</div>
-            <h2 class="section__title" style="margin-bottom: var(--space-md);">Technology Hub</h2>
-            <p class="section__text" style="max-width: 100%; color: var(--white-90);">
-              We build the systems that modern enterprises run on. From custom enterprise software to robust cybersecurity infrastructure, our technology hub is the digital spine of SMATO.
-            </p>
-            <ul style="color: var(--color-gold); font-size: 14px; display: flex; flex-direction: column; gap: 8px; font-weight: 600;">
-              <li>✓ Enterprise Software Architecture</li>
-              <li>✓ Advanced Cyber Security Protocols</li>
-              <li>✓ Cloud-First Business Transformation</li>
-            </ul>
-            <a href="contact.html?division=tech" class="btn btn--primary" style="margin-top: var(--space-lg);">Explore Tech Solutions</a>
-          </div>
-          <div class="reveal reveal--right" style="aspect-ratio: 16/9; overflow: hidden; border: 1px solid var(--white-10); border-radius: var(--radius-sm);">
-            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1200" style="width: 100%; height: 100%; object-fit: cover;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" alt="Technology">
-          </div>
-        </div>
-
-        <!-- Additional Divisions -->
-        <div style="background-color: var(--color-secondary); padding: var(--space-3xl); border-radius: var(--radius-sm); border: 1px solid var(--white-10); margin-top: var(--space-4xl);" class="reveal reveal--fade">
-          <div class="section__header" style="text-align: center; margin-bottom: var(--space-2xl);">
-            <span class="section__label">Extended Capabilities</span>
-            <h3 class="section__title" style="margin-inline: auto;">Our Specialized Pillars</h3>
-          </div>
-          <div class="grid grid--3" style="gap: var(--space-2xl);">
-            <div class="stat-item" style="text-align: center; opacity: 0.9;">
-              <div class="card__icon-box" style="margin-inline: auto; background: var(--white-10); border: 1px solid var(--white-30);">🏙️</div>
-              <h4 class="card__title" style="margin-top: 20px; font-size: 18px;">Real Estate</h4>
-              <p class="card__text" style="font-size: 14px;">Master-planned industrial zoning and strategic high-value asset development.</p>
-            </div>
-            <div class="stat-item" style="text-align: center; opacity: 0.9;">
-              <div class="card__icon-box" style="margin-inline: auto; background: var(--white-10); border: 1px solid var(--white-30);">🌱</div>
-              <h4 class="card__title" style="margin-top: 20px; font-size: 18px;">Agriculture</h4>
-              <p class="card__text" style="font-size: 14px;">Precision industrial farming protocols and vertical value chain integration.</p>
-            </div>
-            <div class="stat-item" style="text-align: center; opacity: 0.9;">
-              <div class="card__icon-box" style="margin-inline: auto; background: var(--white-10); border: 1px solid var(--white-30);">⚡</div>
-              <h4 class="card__title" style="margin-top: 20px; font-size: 18px;">Energy</h4>
-              <p class="card__text" style="font-size: 14px;">Next-gen renewable energy distribution and resilient utility infrastructure.</p>
-            </div>
-          </div>
-          <div class="grid grid--3" style="gap: var(--space-2xl); margin-top: var(--space-xl);">
-            <div class="stat-item" style="text-align: center; opacity: 0.9;">
-              <div class="card__icon-box" style="margin-inline: auto; background: var(--white-10); border: 1px solid var(--white-30);">📢</div>
-              <h4 class="card__title" style="margin-top: 20px; font-size: 18px;">Digital Marketing</h4>
-              <p class="card__text" style="font-size: 14px;">High-conversion performance advertising and global brand management.</p>
-            </div>
-            <div class="stat-item" style="text-align: center; opacity: 0.9;">
-              <div class="card__icon-box" style="margin-inline: auto; background: var(--white-10); border: 1px solid var(--white-30);">👥</div>
-              <h4 class="card__title" style="margin-top: 20px; font-size: 18px;">Human Capital</h4>
-              <p class="card__text" style="font-size: 14px;">Strategic talent acquisition and advanced workforce training programs.</p>
-            </div>
-            <div class="stat-item" style="text-align: center; opacity: 0.9;">
-              <div class="card__icon-box" style="margin-inline: auto; background: var(--white-10); border: 1px solid var(--white-30);">⚖️</div>
-              <h4 class="card__title" style="margin-top: 20px; font-size: 18px;">Consulting</h4>
-              <p class="card__text" style="font-size: 14px;">Executive-level advisory for global market entry and operational scaling.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__bottom">
-        <p>© 2025 SMATO Global Resource. All Rights Reserved.</p>
-        <div style="display: flex; gap: 24px;">
-          <a href="#" class="hover:text--gold">LinkedIn</a>
-          <a href="#" class="hover:text--gold">Twitter/X</a>
-          <a href="#" class="hover:text--gold">Terms</a>
-          <a href="#" class="hover:text--gold">Privacy</a>
+        </a>
+        <ul class="nav__links">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li>
+            <a href="divisions.html" class="nav__link nav__link--active"
+              >Divisions</a
+            >
+          </li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+          <li>
+            <a href="contact.html" class="btn btn--primary btn--pill"
+              >Partner With Us</a
+            >
+          </li>
+        </ul>
+        <div class="hamburger">
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
         </div>
       </div>
+    </nav>
+
+    <!-- Mobile Overlay -->
+    <div class="nav-overlay">
+      <a href="index.html" class="nav-overlay__link">Home</a>
+      <a href="about.html" class="nav-overlay__link">About</a>
+      <a href="divisions.html" class="nav-overlay__link">Divisions</a>
+      <a href="services.html" class="nav-overlay__link">Services</a>
+      <a href="contact.html" class="nav-overlay__link">Contact</a>
     </div>
-  </footer>
 
-  <script type="module" src="assets/js/main.js"></script>
-</body>
+    <main>
+      <!-- Page Header -->
+      <section
+        class="section hero-bg"
+        style="
+          padding-top: 220px;
+          padding-bottom: 100px;
+          text-align: center;
+          background-image: url(&quot;https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=2000&quot;);
+        "
+      >
+        <div class="container">
+          <div class="pill-badge reveal reveal--fade">
+            <span>Diversified · Integrated · Global</span>
+          </div>
+          <h1 class="hero__title reveal reveal--up">Our Divisions</h1>
+          <p class="section__text text--center reveal reveal--up delay-1">
+            A multi-sector conglomerate engineered for the complex demands of
+            modern commerce. Each division operates as a center of excellence,
+            unified by the SMATO standard of precision.
+          </p>
+        </div>
+      </section>
+
+      <!-- Detailed Divisions Section -->
+      <section class="section" style="background-color: var(--color-primary)">
+        <div class="container">
+          <!-- 1. Commodity Trading -->
+          <div
+            class="grid grid--2 reveal reveal--up"
+            style="
+              margin-bottom: var(--space-4xl);
+              align-items: center;
+              gap: var(--space-3xl);
+            "
+          >
+            <div class="reveal reveal--left">
+              <div class="card__icon-box">🌍</div>
+              <h2 class="section__title" style="margin-bottom: var(--space-md)">
+                Commodity Trading
+              </h2>
+              <p
+                class="section__text"
+                style="max-width: 100%; color: var(--white-90)"
+              >
+                Our trading division is the cornerstone of SMATO. We leverage
+                deep market intelligence and a robust network of suppliers to
+                source and trade energy, mineral, and agricultural commodities
+                across continents.
+              </p>
+              <ul
+                style="
+                  color: var(--color-gold);
+                  font-size: 14px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 8px;
+                  font-weight: 600;
+                "
+              >
+                <li>✓ Global Network of Verified Suppliers</li>
+                <li>✓ Strategic Energy & Mineral Sourcing</li>
+                <li>✓ Ethical Agricultural Trade Practices</li>
+              </ul>
+              <a
+                href="contact.html?division=trading"
+                class="btn btn--primary"
+                style="margin-top: var(--space-lg)"
+                >Enquire About Trading</a
+              >
+            </div>
+            <div
+              class="reveal reveal--right"
+              style="aspect-ratio: 16/9; overflow: hidden; border: 1px solid var(--white-10); border-radius: var(--radius-sm); position: relative; group;">
+              <img
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200"
+                style="width: 100%; height: 100%; object-fit: cover"
+                onmouseover="this.style.transform = 'scale(1.1)'"
+                onmouseout="this.style.transform = 'scale(1)'"
+                alt="Commodity Trading"
+              />
+            </div>
+          </div>
+
+          <!-- 2. Logistics & Freight -->
+          <div
+            class="grid grid--2 reveal reveal--up"
+            style="
+              margin-bottom: var(--space-4xl);
+              align-items: center;
+              gap: var(--space-3xl);
+            "
+          >
+            <div class="reveal reveal--left" style="order: 2">
+              <div class="card__icon-box">🚢</div>
+              <h2 class="section__title" style="margin-bottom: var(--space-md)">
+                Logistics & Freight
+              </h2>
+              <p
+                class="section__text"
+                style="max-width: 100%; color: var(--white-90)"
+              >
+                Moving the world requires precision. Our logistics arm provides
+                full-spectrum freight management, ensuring that cargo—whether by
+                air, sea, or land—reaches its destination with zero friction.
+              </p>
+              <ul
+                style="
+                  color: var(--color-gold);
+                  font-size: 14px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 8px;
+                  font-weight: 600;
+                "
+              >
+                <li>✓ Intercontinental Freight Management</li>
+                <li>✓ Complex Customs Architecture Solutions</li>
+                <li>✓ End-to-End Real-Time Cargo Tracking</li>
+              </ul>
+              <a
+                href="contact.html?division=logistics"
+                class="btn btn--primary"
+                style="margin-top: var(--space-lg)"
+                >Request Freight Quote</a
+              >
+            </div>
+            <div
+              class="reveal reveal--right"
+              style="
+                aspect-ratio: 16/9;
+                overflow: hidden;
+                border: 1px solid var(--white-10);
+                border-radius: var(--radius-sm);
+                order: 1;
+              "
+            >
+              <img
+                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200"
+                style="width: 100%; height: 100%; object-fit: cover"
+                onmouseover="this.style.transform = 'scale(1.1)'"
+                onmouseout="this.style.transform = 'scale(1)'"
+                alt="Logistics"
+              />
+            </div>
+          </div>
+
+          <!-- 3. Technology Hub -->
+          <div
+            class="grid grid--2 reveal reveal--up"
+            style="
+              margin-bottom: var(--space-4xl);
+              align-items: center;
+              gap: var(--space-3xl);
+            "
+          >
+            <div class="reveal reveal--left">
+              <div class="card__icon-box">💻</div>
+              <h2 class="section__title" style="margin-bottom: var(--space-md)">
+                Technology Hub
+              </h2>
+              <p
+                class="section__text"
+                style="max-width: 100%; color: var(--white-90)"
+              >
+                We build the systems that modern enterprises run on. From custom
+                enterprise software to robust cybersecurity infrastructure, our
+                technology hub is the digital spine of SMATO.
+              </p>
+              <ul
+                style="
+                  color: var(--color-gold);
+                  font-size: 14px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 8px;
+                  font-weight: 600;
+                "
+              >
+                <li>✓ Enterprise Software Architecture</li>
+                <li>✓ Advanced Cyber Security Protocols</li>
+                <li>✓ Cloud-First Business Transformation</li>
+              </ul>
+              <a
+                href="contact.html?division=tech"
+                class="btn btn--primary"
+                style="margin-top: var(--space-lg)"
+                >Explore Tech Solutions</a
+              >
+            </div>
+            <div
+              class="reveal reveal--right"
+              style="
+                aspect-ratio: 16/9;
+                overflow: hidden;
+                border: 1px solid var(--white-10);
+                border-radius: var(--radius-sm);
+              "
+            >
+              <img
+                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1200"
+                style="width: 100%; height: 100%; object-fit: cover"
+                onmouseover="this.style.transform = 'scale(1.1)'"
+                onmouseout="this.style.transform = 'scale(1)'"
+                alt="Technology"
+              />
+            </div>
+          </div>
+
+          <!-- Additional Divisions -->
+          <div
+            style="
+              background-color: var(--color-secondary);
+              padding: var(--space-3xl);
+              border-radius: var(--radius-sm);
+              border: 1px solid var(--white-10);
+              margin-top: var(--space-4xl);
+            "
+            class="reveal reveal--fade"
+          >
+            <div
+              class="section__header"
+              style="text-align: center; margin-bottom: var(--space-2xl)"
+            >
+              <span class="section__label">Extended Capabilities</span>
+              <h3 class="section__title" style="margin-inline: auto">
+                Our Specialized Pillars
+              </h3>
+            </div>
+            <div class="grid grid--3" style="gap: var(--space-2xl)">
+              <div class="stat-item" style="text-align: center; opacity: 0.9">
+                <div
+                  class="card__icon-box"
+                  style="
+                    margin-inline: auto;
+                    background: var(--white-10);
+                    border: 1px solid var(--white-30);
+                  "
+                >
+                  🏙️
+                </div>
+                <h4
+                  class="card__title"
+                  style="margin-top: 20px; font-size: 18px"
+                >
+                  Real Estate
+                </h4>
+                <p class="card__text" style="font-size: 14px">
+                  Master-planned industrial zoning and strategic high-value
+                  asset development.
+                </p>
+              </div>
+              <div class="stat-item" style="text-align: center; opacity: 0.9">
+                <div
+                  class="card__icon-box"
+                  style="
+                    margin-inline: auto;
+                    background: var(--white-10);
+                    border: 1px solid var(--white-30);
+                  "
+                >
+                  🌱
+                </div>
+                <h4
+                  class="card__title"
+                  style="margin-top: 20px; font-size: 18px"
+                >
+                  Agriculture
+                </h4>
+                <p class="card__text" style="font-size: 14px">
+                  Precision industrial farming protocols and vertical value
+                  chain integration.
+                </p>
+              </div>
+              <div class="stat-item" style="text-align: center; opacity: 0.9">
+                <div
+                  class="card__icon-box"
+                  style="
+                    margin-inline: auto;
+                    background: var(--white-10);
+                    border: 1px solid var(--white-30);
+                  "
+                >
+                  ⚡
+                </div>
+                <h4
+                  class="card__title"
+                  style="margin-top: 20px; font-size: 18px"
+                >
+                  Energy
+                </h4>
+                <p class="card__text" style="font-size: 14px">
+                  Next-gen renewable energy distribution and resilient utility
+                  infrastructure.
+                </p>
+              </div>
+            </div>
+            <div
+              class="grid grid--3"
+              style="gap: var(--space-2xl); margin-top: var(--space-xl)"
+            >
+              <div class="stat-item" style="text-align: center; opacity: 0.9">
+                <div
+                  class="card__icon-box"
+                  style="
+                    margin-inline: auto;
+                    background: var(--white-10);
+                    border: 1px solid var(--white-30);
+                  "
+                >
+                  📢
+                </div>
+                <h4
+                  class="card__title"
+                  style="margin-top: 20px; font-size: 18px"
+                >
+                  Digital Marketing
+                </h4>
+                <p class="card__text" style="font-size: 14px">
+                  High-conversion performance advertising and global brand
+                  management.
+                </p>
+              </div>
+              <div class="stat-item" style="text-align: center; opacity: 0.9">
+                <div
+                  class="card__icon-box"
+                  style="
+                    margin-inline: auto;
+                    background: var(--white-10);
+                    border: 1px solid var(--white-30);
+                  "
+                >
+                  👥
+                </div>
+                <h4
+                  class="card__title"
+                  style="margin-top: 20px; font-size: 18px"
+                >
+                  Human Capital
+                </h4>
+                <p class="card__text" style="font-size: 14px">
+                  Strategic talent acquisition and advanced workforce training
+                  programs.
+                </p>
+              </div>
+              <div class="stat-item" style="text-align: center; opacity: 0.9">
+                <div
+                  class="card__icon-box"
+                  style="
+                    margin-inline: auto;
+                    background: var(--white-10);
+                    border: 1px solid var(--white-30);
+                  "
+                >
+                  ⚖️
+                </div>
+                <h4
+                  class="card__title"
+                  style="margin-top: 20px; font-size: 18px"
+                >
+                  Consulting
+                </h4>
+                <p class="card__text" style="font-size: 14px">
+                  Executive-level advisory for global market entry and
+                  operational scaling.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__bottom">
+          <p>© 2026 SMATO Global Resource. All Rights Reserved.</p>
+          <div style="display: flex; gap: 24px">
+            <a href="#" class="hover:text--gold">LinkedIn</a>
+            <a href="#" class="hover:text--gold">Twitter/X</a>
+            <a href="#" class="hover:text--gold">Terms</a>
+            <a href="#" class="hover:text--gold">Privacy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
 </html>
